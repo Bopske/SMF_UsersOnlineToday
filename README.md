@@ -1,12 +1,9 @@
 # SMF_UsersOnlineToday
 
 
-[![Latest Version](https://img.shields.io/github/release/Bopske/SMF_UsersOnlineToday.svg)](https://github.com/Bopske/SMF_UsersOnlineToday
-/releases)
-[![Total Downloads](https://img.shields.io/github/downloads/Bopske/SMF_UsersOnlineToday/total.svg)](https://github.com/Bopske/SMF_UsersOnlineToday
-/releases)
-[![GitHub issues](https://img.shields.io/github/issues/Bopske/SMF_UsersOnlineToday.svg)](https://github.com/Bopske/SMF_UsersOnlineToday
-/issues)
+[![Latest Version](https://img.shields.io/github/release/Bopske/SMF_UsersOnlineToday.svg)](https://github.com/Bopske/SMF_UsersOnlineToday/releases)
+[![Total Downloads](https://img.shields.io/github/downloads/Bopske/SMF_UsersOnlineToday/total.svg)](https://github.com/Bopske/SMF_UsersOnlineToday/releases)
+[![GitHub issues](https://img.shields.io/github/issues/Bopske/SMF_UsersOnlineToday.svg)](https://github.com/Bopske/SMF_UsersOnlineToday/issues)
 
 ## Creator:
 Originally created by [Carceri]
