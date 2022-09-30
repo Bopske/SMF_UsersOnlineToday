@@ -1,5 +1,4 @@
-# SMF_UsersOnlineToday
-
+Users Online Today for SMF2.1
 
 [![Latest Version](https://img.shields.io/github/release/Bopske/SMF_UsersOnlineToday.svg)](https://github.com/Bopske/SMF_UsersOnlineToday/releases)
 [![Total Downloads](https://img.shields.io/github/downloads/Bopske/SMF_UsersOnlineToday/total.svg)](https://github.com/Bopske/SMF_UsersOnlineToday/releases)
