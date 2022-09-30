@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="xslt/package-info.xsl" type="text/xsl"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+	<id>@rjen:UsersOnlineTodayMod</id>
+	<name>Users Online Today</name>
+	<version>2.1.2</version>
+	<type>modification</type>
+	<install for="2.1 - 2.1.99">
+		<readme parsebbc="true">readme.txt</readme>
+		<require-file name="UsersOnlineToday.php" destination="$sourcedir" />
+		<require-file name="UsersOnlineToday.template.php" destination="$themedir" />
+		<require-dir name="languages" destination="$themedir" />
+		<hook hook="integrate_general_mod_settings" function="UsersOnlineToday_settings" file="$sourcedir/UsersOnlineToday.php" />
+		<hook hook="integrate_mark_read_button" function="UsersOnlineToday_addStats" file="$sourcedir/UsersOnlineToday.php" />
+		<hook hook="integrate_credits" function="UsersOnlineToday_credits" file="/$sourcedir/UsersOnlineToday.php" />
+		<database>db_install.php</database>
+		<redirect url="?action=admin;area=modsettings;sa=general" timeout="5000" />
+	</install>
+	<uninstall for="2.1 - 2.1.99">
+		<remove-file name="$sourcedir/UsersOnlineToday.php" />
+		<remove-file name="$themedir/UsersOnlineToday.template.php" />
+		<remove-file name="$languagedir/UsersOnlineToday.english.php" />
+		<remove-file name="$languagedir/UsersOnlineToday.dutch.php" />
+		<hook hook="integrate_general_mod_settings" function="UsersOnlineToday_settings" file="$sourcedir/UsersOnlineToday.php" reverse="true" />
+		<hook hook="integrate_mark_read_button" function="UsersOnlineToday_addStats" file="$sourcedir/UsersOnlineToday.php" reverse="true" />
+		<hook hook="integrate_credits" function="UsersOnlineToday_credits" file="$sourcedir/UsersOnlineToday.php" reverse="true" />
+		<database>db_install.php</database>
+	</uninstall>
+</package-info>
