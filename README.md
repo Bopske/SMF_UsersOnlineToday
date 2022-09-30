@@ -1,8 +1,12 @@
 # SMF_UsersOnlineToday
 
-[![Latest Version](https://img.shields.io/github/release/TinyPortal/TinyPortal.svg)](https://github.com/TinyPortal/TinyPortal/releases)
-[![Total Downloads](https://img.shields.io/github/downloads/TinyPortal/TinyPortal/total.svg)](https://github.com/TinyPortal/TinyPortal/releases)
-[![GitHub issues](https://img.shields.io/github/issues/TinyPortal/TinyPortal.svg)](https://github.com/TinyPortal/TinyPortal/issues)
+
+[![Latest Version](https://img.shields.io/github/release/Bopske/SMF_UsersOnlineToday.svg)](https://github.com/Bopske/SMF_UsersOnlineToday
+/releases)
+[![Total Downloads](https://img.shields.io/github/downloads/Bopske/SMF_UsersOnlineToday/total.svg)](https://github.com/Bopske/SMF_UsersOnlineToday
+/releases)
+[![GitHub issues](https://img.shields.io/github/issues/Bopske/SMF_UsersOnlineToday.svg)](https://github.com/Bopske/SMF_UsersOnlineToday
+/issues)
 
 ## Creator:
 Originally created by [Carceri]
